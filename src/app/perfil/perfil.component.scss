@@ -1,0 +1,88 @@
+/* Encabezado de la página */
+.encabezado-container {
+    position: relative; /* Asegura que los elementos absolutos sean relativos a este contenedor */
+    text-align: center;
+    padding: 20px;
+    background-color: #3498db; /* Color de fondo del encabezado */
+  }
+  
+  .encabezado-container img {
+    max-width: 100%;
+    max-height: 150px;
+  }
+  .perfil-container {
+    display: flex;
+    flex-direction: column; /* Alineación vertical */
+    align-items: center; /* Centrado horizontal */
+    margin-top: 20px; /* Espacio desde arriba */
+  }
+  
+  .form-container {
+    width: 400px; /* Ancho del formulario */
+    margin-top: 20px; /* Espacio entre el encabezado y el formulario */
+  }
+  
+  form {
+    padding: 20px; /* Espacio alrededor del formulario */
+    border: 1px solid #ccc; /* Borde del formulario */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Color de fondo del formulario */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra del formulario */
+  }
+  
+  .form-group {
+    margin-bottom: 15px; /* Espacio entre los campos del formulario */
+  }
+  
+  label {
+    display: block; /* Muestra las etiquetas en una línea nueva */
+    margin-bottom: 5px; /* Espacio bajo las etiquetas */
+    font-weight: bold; /* Texto en negrita */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea,
+  select {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado dentro de los campos de entrada */
+    border: 1px solid #ccc; /* Borde de los campos de entrada */
+    border-radius: 3px; /* Bordes redondeados */
+    box-sizing: border-box; /* Tamaño total incluyendo relleno y borde */
+  }
+  
+  button[type="submit"] {
+    display: block; /* Muestra el botón en una línea nueva */
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado dentro del botón */
+    border: none; /* Sin borde */
+    border-radius: 3px; /* Bordes redondeados */
+    background-color: #3498db; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #2980b9; /* Cambia el color de fondo al pasar sobre el botón */
+  }
+  
+
+  /* Footer */
+  .footer-container {
+    text-align: right;
+  }
+
+  .boton-volver {
+    margin-top: 20px;
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .boton-volver:hover {
+    background-color: #2980b9;
+  }

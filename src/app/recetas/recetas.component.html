@@ -1,0 +1,49 @@
+<!-- Encabezado -->
+<div class="encabezado-container">
+  <img src="assets/imagenes/salvusHealth.jpg" alt="Salvus Health Logo">
+  <i class="fas fa-user-md"></i>
+</div>
+
+<div class="container">
+  <h1>Recetario de Medicamento</h1>
+  
+  <form>
+     
+      <!-- Resto del formulario -->
+      <label for="prescription">Prescripción:</label>
+      <textarea id="prescription" name="prescription" rows="4"></textarea>
+
+      <label for="patient">Paciente:</label>
+      <input type="text" id="patient" name="patient">
+
+      <label for="prescriber">Prescriptor:</label>
+      <input type="text" id="prescriber" name="prescriber">
+
+      <label for="instructions">Instrucciones al paciente:</label>
+      <textarea id="instructions" name="instructions" rows="4"></textarea>
+
+      <label for="medical_prescription">Receta médica:</label>
+      <textarea id="medical_prescription" name="medical_prescription" rows="4"></textarea>
+
+      <label for="security_measures">Medidas de seguridad y control previstas:</label>
+      <textarea id="security_measures" name="security_measures" rows="4"></textarea>
+       <!-- Contenedor flex para alinear los botones horizontalmente -->
+       <div class="button-container">
+        <!-- Botón Atrás -->
+        <button class="boton-atras" (click)="irAtras()">Atrás</button>
+        
+        <!-- Espacio para separar los botones -->
+        <div class="spacer"></div>
+        
+        <!-- Botón Enviar -->
+        <input type="submit" value="Enviar">
+      </div>
+
+  </form>
+</div>
+
+
+<!-- Botón para volver a inicio -->
+<div class="footer-container">
+  <button class="boton-volver" (click)="volverAInicio()">Volver a Inicio</button>
+</div>

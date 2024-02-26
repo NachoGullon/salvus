@@ -1,0 +1,41 @@
+<div class="encabezado-container">
+  <img src="assets/imagenes/salvusHealth.jpg" alt="Salvus Health Logo">
+</div>
+
+<div class="registro-container">
+  <h2>Registro</h2>
+
+  <form (ngSubmit)="registrarSanitario()">
+    <!-- Número de Colegiado -->
+    <label for="numeroColegiado">Número de Colegiado:</label>
+    <input type="text" id="numeroColegiado" name="numeroColegiado" formControlName="numeroColegiado" required>
+
+    <!-- Nombre -->
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" formControlName="nombre" required>
+
+    <!-- Apellidos -->
+    <label for="apellidos">Apellidos:</label>
+    <input type="text" id="apellidos" name="apellidos" formControlName="apellidos" required>
+
+    <!-- Especialidad -->
+    <label for="especialidad">Especialidad:</label>
+    <input type="text" id="especialidad" name="especialidad" formControlName="especialidad" required>
+
+    <!-- Email -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" formControlName="email" required>
+
+    <!-- Contraseña -->
+    <label for="contrasena">Contraseña:</label>
+    <input type="password" id="contrasena" name="contrasena" formControlName="contrasena" required>
+
+    <!-- Confirmar Contraseña -->
+    <label for="confirmarContrasena">Confirmar Contraseña:</label>
+    <input type="password" id="confirmarContrasena" name="confirmarContrasena" formControlName="confirmarContrasena" required>
+
+    <button type="submit" class="boton-azul">Registrarse</button>
+  </form>
+
+  <button class="boton-volver" (click)="volverAInicio()">Volver a Inicio</button>
+</div>

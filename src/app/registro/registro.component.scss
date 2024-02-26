@@ -1,0 +1,71 @@
+.encabezado-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #3498db; /* Color de fondo del encabezado */
+  }
+  
+  img {
+    max-width: 100%; /* Asegura que la imagen no se extienda más allá de su tamaño original */
+    max-height: 150px; /* Altura máxima de la imagen */
+  }
+
+  /* registro.component.scss */
+
+.registro-container {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+
+  label {
+    margin-bottom: 8px;
+  }
+
+  input {
+    padding: 10px;
+    margin-bottom: 16px;
+    width: 100%;
+    max-width: 300px;
+  }
+
+  button {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #2980b9;
+  }
+}
+
+.boton-volver {
+  margin-top: auto;
+  background-color: #3498db;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.boton-volver:hover {
+  background-color: #2980b9;
+}

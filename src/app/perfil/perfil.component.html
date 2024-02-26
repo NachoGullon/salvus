@@ -1,0 +1,42 @@
+<div class="encabezado-container">
+    <img src="assets/imagenes/salvusHealth.jpg" alt="Salvus Health Logo">
+    <i class="fas fa-user-md"></i>
+  </div>
+  <div class="perfil-container">
+    <h2>Editar Perfil</h2>
+    <form>
+      <div class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+      </div>
+      <div class="form-group">
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="Correo Electrónico">
+      </div>
+      <div class="form-group">
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="Teléfono">
+      </div>
+      <div class="form-group">
+        <label for="bio">Hospital:</label>
+        <textarea id="bio" name="bio" placeholder="Hospital"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="genero">Género:</label>
+        <select id="genero" name="genero">
+          <option value="masculino">Masculino</option>
+          <option value="femenino">Femenino</option>
+          <option value="otro">Otro</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="avatar">Avatar:</label>
+        <input type="file" id="avatar" name="avatar">
+      </div>
+      <button type="submit">Guardar Cambios</button>
+    </form>
+  </div>
+
+  <div class="footer-container">
+    <button class="boton-volver" (click)="volverAInicio()">Volver a Inicio</button>
+  </div>

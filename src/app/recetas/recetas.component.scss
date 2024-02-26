@@ -1,0 +1,82 @@
+/* Encabezado de la página */
+.encabezado-container {
+  position: relative;
+  text-align: center;
+  padding: 20px;
+  background-color: #3498db;
+}
+
+.encabezado-container img {
+  max-width: 100%;
+  max-height: 150px;
+}
+
+/* formulario*/
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.centered-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #007BFF;
+  color: white;
+  font-size: 18px;
+}
+
+/* Footer */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.boton-volver {
+  background-color: #3498db;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.boton-volver:hover {
+  background-color: #2980b9;
+}
+
+/* Estilo para el contenedor de los botones */
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Estilo para el espacio entre los botones */
+.spacer {
+  flex: 1;
+}

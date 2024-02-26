@@ -1,0 +1,62 @@
+<!-- Encabezado -->
+<div class="encabezado-container">
+  <img src="assets/imagenes/salvusHealth.jpg" alt="Salvus Health Logo">
+  <i class="fas fa-user-md"></i>
+</div>
+
+<!-- Menú de perfil -->
+<div class="perfil">
+  <select (change)="seleccionarOpcion($event)">
+    <option value="">Seleccionar opción</option>
+    <option value="opcion1">Perfil</option>
+    <option value="opcion2">Cerrar Sesión</option>
+  </select>
+</div>
+
+<!-- Texto de bienvenida -->
+<div class="texto-bienvenida">
+  <p>Bienvenido a Salvus Health, donde tu salud es nuestra prioridad. Salvus es una plataforma diseñada para ofrecerte servicios médicos de calidad y acceso a información relevante para cuidar de ti y tus seres queridos.</p>
+</div>
+
+<!-- Input para número de historia -->
+<div class="InputContainer">
+  <input placeholder="Nº de historia..." id="input" class="input" name="text" type="text">
+</div>
+
+<!-- Resumen de actividades recientes -->
+<div class="actividades-recientes">
+  <h2>Actividades Recientes</h2>
+  <ul>
+    <li>Consulta médica programada para hoy a las 10:00 am.</li>
+    <li>Receta renovada por el doctor Martínez.</li>
+    <li>Análisis de laboratorio pendiente de resultados.</li>
+  </ul>
+  <!--   <li *ngFor="let actividad of actividadesRecientes">{{ actividad }}</li> Estaría bien hacer actividadesRecientes un arreglo en el componente que contiene las actividades recientes del usuario.-->
+</div>
+
+<!-- Acceso rápido a funcionalidades clave -->
+<div class="acceso-rapido">
+  <h2>Acceso Rápido a Funcionalidades Clave</h2>
+  <ul>
+    <li><a routerLink="/agenda">Agenda</a></li>
+    <li><a routerLink="/historial">Historial Médico</a></li>
+    <div>
+    <li><button class="boton-recetas" (click)="irARecetas()"> Recetas</button></li>
+  </div>
+  </ul>
+</div>
+
+
+<!-- Notificaciones y recordatorios -->
+<div class="notificaciones">
+  <h2>Notificaciones y Recordatorios</h2>
+  <ul>
+    <li>Recordatorio: Tu próxima cita médica es mañana a las 9:00 am.</li>
+    <li>Notificación: Se ha enviado un mensaje importante a tu bandeja de entrada.</li>
+  </ul>
+</div>
+
+<!-- Botón para volver a inicio -->
+<div class="footer-container">
+  <button class="boton-volver" (click)="volverAInicio()">Volver a Inicio</button>
+</div>

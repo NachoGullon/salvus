@@ -1,0 +1,33 @@
+.bienvenida-container {
+    text-align: center;
+    background-color: #f0f0f0; /* Color de fondo suave */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin: 20px auto; /* Centrado */
+    max-width: 400px; /* Ancho máximo */
+  }
+  
+  .boton-azul {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  .encabezado-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #3498db; /* Color de fondo del encabezado */
+  }
+  
+  img {
+    max-width: 100%; /* Asegura que la imagen no se extienda más allá de su tamaño original */
+    max-height: 150px; /* Altura máxima de la imagen */
+  }
+  
+  
+  
